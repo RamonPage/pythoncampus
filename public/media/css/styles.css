@@ -66,14 +66,14 @@ h4 {
 h1 {
 	font-weight: normal;
 	font-size: 2.2em;
-	text-align: left; 		
+	text-align: left;
 	color: #831A00;
-} 
- 
+}
+
 h2 {
 	margin: .643em 0;
 	font-weight: normal;
-	font-size: 1.8em; 
+	font-size: 1.8em;
 	color: #E6AC0C;
 	font-style: italic;
 	clear: both;
@@ -84,7 +84,7 @@ h3 {
 	font-weight: normal;
 	font-size: 1.45em;
 	color: #5f6972;
-}  
+}
 
 h3#titulo-palestras {
 	padding: 4px 0 0 50px;
@@ -113,9 +113,9 @@ h3#titulo-como-chegar {
 h4 {
 	margin: .643em 0;
 	font-weight: normal;
-	font-size: 1.4em; 
+	font-size: 1.4em;
 	color: #5f6972;
-}  
+}
 
 
 /*
@@ -238,7 +238,7 @@ Content
 #content {
   margin: 0 20px;
   font-size: 1.2em;
- 	font-family: Arial, Helvetica, Sans-serif;
+  font-family: Arial, Helvetica, Sans-serif;
 }
 
 #error {
