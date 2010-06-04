@@ -172,6 +172,18 @@ Header
 }
 
 /*
+Slides
+*/
+.slide {
+    text-align: center;
+}
+.slide span {
+    display: block;
+    margin: 30px 0 4px;
+    font-weight: bold;
+}
+
+/*
 Forms
 */
 
@@ -287,42 +299,94 @@ Content
 }
 
 /*
-Tables
+ Coding Dojo
 */
 
-table {
-  width: 100%;
-  border-collapse: collapse;
-  border-top: 2px solid #e9e9e9;
-  border-bottom: 2px solid #e9e9e9;
-  margin: 0 0 20px 0;
+div.image-container{
+    text-align: center;
 }
 
-table tr th {
-  text-align: left;
+div.image-container p{
+    font-size: small;
+    color: #333;
+    margin: .5em 35px;
 }
 
-table tr th,
-table tr td {
-  padding: 4px;
-  vertical-align: top;
-  border-bottom: 1px solid #e9e9e9;
+div.image-container,
+div#dojo-content{
+    float: left;
+    width: 50%;
 }
 
-table tr td.hora-agenda {
-  width: 60px;
-  font-size: 1.4em;
+div.image-container{
+    margin: 4.5em 0;
 }
 
-table tr td.descricao-agenda {
-  width: 280px;
-}
+/*
+Talks
+*/
 
-table tr td .titulo-agenda {
+#talks {
+  width: 705px;
+}
+#talks .header {
+  padding: 6px 15px 6px 15px;
+  background-color: #131313;
+  color: #71C7E4;
+  font-size: 18px;
   font-weight: bold;
+  line-height: 24px;
+}
+#talks .header span {
+  background-color: #000000;
+  text-align: right;
+  display: block;
+  float: right;
+  width: 70px;
+}
+#talks table {
+  width: 100%;
+  background-color: #EEEEEE;
+  border: none;
+  padding: 0px;
+  text-align: justify;
+  font-size: 13px;
+}
+#talks table tr {
+  vertical-align: top;
+}
+#talks table a, table a:link, table a:active, table a:visited {
+  color:#FF6600;
+  font-weight:bold;
+  text-decoration:none;
+  border: none;
+}
+#talks table a:hover {
+  border-bottom: 1px dotted #FF6600;
+}
+#talks table .photo,
+#talks table .photo img {
+  width: 100px;
+}
+#talks table big {
+  line-height: 1.5em;
 }
 
+/*
+Sidebar
+*/
 
+#sidebar {
+    float: right;
+}
+
+#sidebar a,
+#sidebar a:hover,
+#sidebar a:link,
+#sidebar a:active,
+#sidebar a:visited {
+    border: none;
+}
 /*
 Footer
 */
